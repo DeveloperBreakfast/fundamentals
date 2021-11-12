@@ -7,7 +7,7 @@ async function main() {
   const yearBorn = await input('Enter birthdate year: ');
   const yearToday = new Date().getFullYear();
 
-  console.log('You are ' + yearToday - yearBorn + ' years old!');
+  console.log('You are ' + (yearToday - yearBorn) + ' years old!');
 }
 
 main();

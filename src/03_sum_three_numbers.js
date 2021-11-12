@@ -9,7 +9,7 @@ async function main() {
   for (let i = 0; i < 3; i++) {
     const number = await input('Enter a number: ');
 
-    total += Number(number);
+    total += parseInt(number, 10);
   }
 
   console.log('Total is: ' + total);
