@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "fmt": "prettier --write '**/(*.js|.ts|.jsx|.tsx|.md)'",
     "fmt:check": "prettier --check '**/(*.js|.ts|.jsx|.tsx|.md)'"

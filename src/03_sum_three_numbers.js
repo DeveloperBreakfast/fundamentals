@@ -1,18 +1,14 @@
 // Prompts 3 numbers and sums them together, then prints the total to the
 // console
 
-const { input } = require('./utils/input');
+import { input } from './utils/input';
 
-async function main() {
-  let total = 0;
+let total = 0;
 
-  for (let i = 0; i < 3; i++) {
-    const number = await input('Enter a number: ');
+for (let i = 0; i < 3; i++) {
+  const number = await input('Enter a number: ');
 
-    total += Number(number);
-  }
-
-  console.log('Total is: ' + total);
+  total += Number(number);
 }
 
-main();
+console.log('Total is: ' + total);
