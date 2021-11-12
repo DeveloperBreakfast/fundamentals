@@ -1,0 +1,11 @@
+# Directories
+.parcel-cache
+build
+node_modules
+dist
+temp
+
+# Files
+.DS_Store
+.vscode
+yarn.lock
