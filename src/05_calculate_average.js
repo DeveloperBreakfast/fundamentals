@@ -1,6 +1,5 @@
-const { input } = require('./utils/input');
+import { input } from './utils/input.js';
 
-async function main() {
     const ordenamientos = ['Primero', 'Segundo', 'Tercero', 'Cuarto'];
     let sumaDeNotas = 0;
     for (const ord of ordenamientos) {
@@ -9,6 +8,6 @@ async function main() {
         sumaDeNotas += parseFloat(value);
     }
     console.log('Promedio =' + sumaDeNotas/4);
-}
 
-main();
+
+

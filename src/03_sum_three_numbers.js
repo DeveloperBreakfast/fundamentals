@@ -7,11 +7,7 @@ let total = 0;
 
 for (let i = 0; i < 3; i++) {
   const number = await input('Enter a number: ');
-
     total += parseInt(number, 10);
   }
-
-  console.log('Total is: ' + total);
-}
-
 console.log('Total is: ' + total);
+

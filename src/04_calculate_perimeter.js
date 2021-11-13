@@ -1,14 +1,12 @@
 // Escriba un programa que reciba como entrada el radio de un círculo y entregue
 // como salida su perímetro y su área
 
-const { input } = require('./utils/input');
+import { input } from './utils/input.js';
 
-async function main() {
   const radius = await input('Ingrese el radio: ');
   const perimeter = 2 * (Math.PI * radius);
   const area = Math.PI * (radius * radius);
   console.log('Perimetro: ' + perimeter);
   console.log('Área: ' + area);
-}
 
-main();
+
