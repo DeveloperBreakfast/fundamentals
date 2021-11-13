@@ -1,11 +1,7 @@
 // Prompt a user its name and greets the user mentioning the provided name
 
-const { input } = require('./utils/input');
+import { input } from './utils/input.js';
 
-async function main() {
-  const name = await input("Enter your name: ");
+const name = await input('Ingrese su nombre: ');
 
-  console.log(`Hello ${name}!`);
-}
-
-main();
+console.log(`Hola, ${name}!`);
