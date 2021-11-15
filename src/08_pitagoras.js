@@ -1,4 +1,3 @@
-import { match } from 'assert/strict';
 import { input } from './utils/input.js';
 let total = 0;
 

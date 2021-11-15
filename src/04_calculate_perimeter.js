@@ -3,10 +3,8 @@
 
 import { input } from './utils/input.js';
 
-  const radius = await input('Ingrese el radio: ');
-  const perimeter = 2 * (Math.PI * radius);
-  const area = Math.PI * (radius * radius);
-  console.log('Perimetro: ' + perimeter);
-  console.log('Área: ' + area);
-
-
+const radius = await input('Ingrese el radio: ');
+const perimeter = 2 * (Math.PI * radius);
+const area = Math.PI * (radius * radius);
+console.log('Perimetro: ' + perimeter);
+console.log('Área: ' + area);
