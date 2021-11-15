@@ -1,8 +1,14 @@
 import { input } from './utils/input.js';
 
-async function main() {
-    let numInvertidos = 0;
-  const invnumber = await input ('Ingrese numero: ');
-  
-  numInvertidos += 
-  
+let value = await input('Ingrese un numero: ');
+let result = '';
+let valueLength = value.length;
+
+value = parseInt(value, 10);
+
+for (let i = 0; i < valueLength; i++) {
+  result += (value % 10) + Math.trunc();
+  value /= 10;
+}
+
+console.log(result);

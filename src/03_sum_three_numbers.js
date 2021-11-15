@@ -1,7 +1,7 @@
 // Prompts 3 numbers and sums them together, then prints the total to the
 // console
 
-import { input } from './utils/input';
+import { input } from './utils/input.js';
 
 let total = 0;
 
