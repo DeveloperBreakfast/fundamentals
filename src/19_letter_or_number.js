@@ -8,7 +8,7 @@ if (letterOrNumber.length !== 1) {
     process.exit();
   }
   
-  const characterCode = letterOrNumber.charCoddeAt(0);
+  const characterCode = letterOrNumber.charCodeAt(0);
   
   if (characterCode >= 48 && characterCode <= 57) {
     console.log('El caractér es un número.');
@@ -25,7 +25,7 @@ if (letterOrNumber.length !== 1) {
     process.exit();
   }
 
-  if (characterCode >= 32 && characterCode >= 47) {
+  if (characterCode >= 32 && characterCode <= 47) {
       console.log('No es letra ni número');
       process.exit();
   }
