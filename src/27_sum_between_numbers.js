@@ -5,7 +5,7 @@ const numTwo = parseInt(await input('Ingrese num: '), 10);
 
 let total = 0
 
-for (let i = 0; i < numTwo; i++) {
+for (let i = numOne + 1; i < numTwo; i++) {
  total += i;   
 }
 
